@@ -1,0 +1,10 @@
+.panel {
+  border-left: 1px solid #a6a6a6;
+  padding: 0px 20px;
+
+  &-item {
+    &-list {
+      padding-left: 20px;
+    }
+  }
+}
