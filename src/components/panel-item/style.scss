@@ -1,0 +1,27 @@
+.panel_item_wrapper {
+  width: fit-content;
+  padding: 5px 10px;
+  border: 2px solid #a6a6a6;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &-badge {
+    width: 40px;
+    height: 30px;
+    background-color: #dfe6ed;
+    border: 2px solid #9eadba;
+    margin-right: 10px;
+  }
+
+  .red-badge {
+    background-color: #e9a2ad;
+    border: 2px solid #d3455b;
+  }
+
+  .green-badge {
+    background-color: #8dd7cf;
+    border: 2px solid #44ae9f;
+  }
+}

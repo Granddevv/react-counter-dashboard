@@ -1,0 +1,40 @@
+.counter {
+  display: flex;
+  margin-bottom: 20px;
+
+  &-main {
+    flex: 1;
+    &__tool {
+      display: flex;
+      align-items: center;
+
+      &-btn {
+        background: #8dd7cf;
+        border-radius: 26px;
+        width: 30px;
+        height: 30px;
+        border: none;
+        color: #44ae9f;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+    }
+
+    &-title {
+      margin-bottom: 10px !important;
+    }
+  }
+
+  &-action {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    &-btn {
+      width: 40px;
+      border: 2px dashed gray;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+  }
+}
