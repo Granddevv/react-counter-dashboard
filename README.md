@@ -1,4 +1,4 @@
-# Twine frontend interview repository
+# Twine frontend repository
 
 ## Getting started
 
